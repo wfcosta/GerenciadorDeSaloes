@@ -1,0 +1,2 @@
+{"ts":1375753495120,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Role < ActiveRecord::Base\n  attr_accessible :name\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":60}]],"length":60}
+{"contributors":[],"silentsave":false,"ts":1375753511281,"patch":[[{"diffs":[[0,"e :name\n"],[1,"  has_many :users, :dependent => :restrict\n  has_and_belongs_to_many :permissions\n\n  validates_presence_of :name#, :permissions\n  validates_uniqueness_of :name\n"],[0,"end\n"]],"start1":48,"start2":48,"length1":12,"length2":172}]],"length":220,"saved":false}
