@@ -1,0 +1,21 @@
+<h1>/User</h1>
+
+<p>
+  <b>Email</b><br>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Role</b><br>
+  <%= @user.role.name %>
+</p>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              users_path, :class => 'btn'  %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              user_path(@user),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>
