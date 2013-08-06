@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
@@ -29,3 +30,9 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for documentation, or http://support.c9.io for support. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+=======
+GerenciadorDeSaloes
+===================
+
+GerenciadorDeSaloes
+>>>>>>> ecfafcbb758c4feaabeb04b014b12b7f4fa0d83b
